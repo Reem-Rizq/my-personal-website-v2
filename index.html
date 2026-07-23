@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="الموقع الشخصي لريم رزق.">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="author" content="Reem Rizq">
+      <meta name="copyright" content="Reem Rizq">
+      <meta name="keywords" content="personal page, personal site, personal website, website, reem, Reem, reem rizq, Reem Rizq, reem Rizq, Reem rizq, html, HTML, css, CSS, software engneer, موقع شخصي">
+      <link rel="stylesheet" href="styles.css" />
+      <meta property="og:title" content="موقع استثنائي - ريم رزق.">
+      <title>- Reem Rizq.</title>
+    </head>
+
+
+    <body class="rtl" dir="rtl">
+        
+        <header id="ras">
+            <div class="container header-con">
+                <div class="logo"><svg viewbox="0 0 468 211" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;
+                        clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;">
+                        <g id="Artboard1" transform="matrix(6.665698,0,0,4.61027,-2586.214521,-817.119921)"><rect x="388" y="177" width="69" height="46" style="fill:none;"/><clipPath id="_clip1"><rect x="388" y="177" width="69" height="46"/></clipPath>
+                            <g clip-path="url(#_clip1)">
+                                <g transform="matrix(0.311457,0,0,0.407208,322.162546,103.682373)">
+                                    <path d="M333,235C335,229 336,223 335,220C333,217 328,215 321,215C317,215 312,217 308,218C303,219 298,222 295,223C292,225 284,233 283,240C282,243 290,244 297,245C304,247 308,245 310,244C282,245 215,252 215,225C215,201 252,187 292,185C388,180 430,202 430,231C431,259 351,278 318,281C303,283 220,295 218,285C217,278 238,271 258,266C264,265 290,259 318,256C354,251 392,248 400,247" style="fill:none;stroke:#ca2c92;stroke-opacity:1;stroke-width:7px;"/>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <nav id="navi">
+                    <ul class="nav-ul">
+                        <li><a href="#intro" data-ar="من أكون؟" data-en="Who Am I?"></a></li>
+                        <li><a href="#values" data-ar="قيَمي" data-en="My Values"></a></li>
+                        <li><a href="#interests" data-ar="اهتماماتي" data-en="My Interests"></a></li>
+                        <li><a href="#experience" data-ar="خبرتي" data-en="My Experience"></a></li>
+                        <li><a href="#contact" data-ar="تواصل معي" data-en="Contact Me"></a></li>
+                    </ul>
+                    <button id="nav-menu" role="button" aria-label="فتح القائمة" tabindex="0" data-ar="القائمة" data-en="Menu"></button>
+                </nav>
+                <button id="lang-btn" role="button" aria-label="تغيير اللغة" tabindex="0" data-ar="English" data-en="العربية"></button>
+            </div>    
+        </header>
+        
+        <section id="intro">
+            <div class="container intro-con">
+                <img class="prof-img" src="imgs/myrose.jpg" alt="صورة هويتي الالكترونية" loading="lazy">
+                <h1 data-ar="من أكون؟" data-en="Who Am I?"></h1> 
+                <h2 data-ar="مرحبا، هنا ريم؛" data-en="Hello! here is Reem;"></h2>
+                <p data-ar="متعلمة شغوفة تشارك المعارف والخبرات، أنشأت هذا الموقع لاستكشاف فرص أكثر طموحًا." data-en="a dedicated learner who shares knowledge and experiences. I created this site to explore more ambitious opportunities."></p>
+            </div>
+        </section>
+
+        <section id="values" class="val-con"> <!-- هنا المصباح -->
+            <h1 data-ar="قيَمي" data-en="My Values"></h1> 
+            <button id="lamp-btn" role="switch" aria-checked="false" aria-label="تشغيل المصباح" tabindex="0"><svg width="24" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.0625 18.0453C9.01679 16.914 8.26885 15.8509 7.26013 14.8658C5.86655 13.5048 5 11.6029 5 9.49987C5 5.35781 8.35781 2 12.4999 2C16.6419 2 19.9997 5.35781 19.9997 9.49987C19.9997 11.6027 19.1333 13.5046 17.7399 14.8655C16.6988 15.8824 15.9355 16.9822 15.9355 18.1544V19.75C15.9355 20.9926 14.9282 22 13.6855 22H11.3125C10.0699 22 9.0625 20.9926 9.0625 19.75V18.0453ZM6.5 9.49987C6.5 6.18624 9.18624 3.5 12.4999 3.5C15.8135 3.5 18.4997 6.18624 18.4997 9.49987C18.4997 11.1824 17.8082 12.7021 16.6918 13.7925C15.9506 14.5164 15.1802 15.4257 14.7589 16.5H13.25V11.8412C13.5571 11.7329 13.8453 11.5559 14.0909 11.3103L14.9363 10.4649C15.2292 10.172 15.2292 9.69713 14.9363 9.40424C14.6434 9.11135 14.1686 9.11135 13.8757 9.40424L13.0303 10.2497C12.7374 10.5425 12.2625 10.5425 11.9696 10.2497L11.124 9.40421C10.8311 9.11133 10.3563 9.11136 10.0634 9.40427C9.77051 9.69719 9.77054 10.1721 10.0635 10.4649L10.909 11.3104C11.1547 11.556 11.4429 11.7329 11.75 11.8412L11.75 16.5H10.2412C9.81983 15.4258 9.04933 14.5165 8.30817 13.7927C7.19168 12.7023 6.5 11.1825 6.5 9.49987ZM10.5625 18.2129C10.564 18.1938 10.5647 18.1744 10.5647 18.1549C10.5647 18.1088 10.564 18.063 10.5625 18.0175V18H14.4355V19.75C14.4355 20.1642 14.0998 20.5 13.6855 20.5H11.3125C10.8983 20.5 10.5625 20.1642 10.5625 19.75V18.2129Z" fill="#ffffff"/>
+                </svg> <!-- ذكرني لاحقا بتغيير لونه حسب الحاجة -->
+            </button>
+            <h6 data-ar="أضئ المصباح لترى" data-en="Turn the light on so you can see!"></h6>
+            <div class="container " id="lamp-box" aria-live="polite"> 
+                <h3 data-ar="انطلاقا من مبادئ ديني ألتزم بالقيم التالية في حياتي:" data-en="Based on the principles of my religion I follow these values in my life:"></h3>
+                <div class="val-box"><h2 data-ar="الإتقان" data-en="Excellence"></h2><br><p data-ar="أفعل ما يلزم بأفضل طريقة متاحة." data-en="I do what is required in the best possible way."></p></div>
+                <div class="val-box"><h2 data-ar="المثابرة" data-en="Perseverance"></h2><br><p data-ar="أبحث في الحلول الممكنة بدلا من الاستسلام للمصاعب." data-en="I seek possible solutions instead of giving up when I face difficulties."></p></div>
+                <div class="val-box"><h2 data-ar="الأصالة" data-en="Authenticity"></h2><br><p data-ar="أفضّل إنجاز الأمور تبعًا للغايات والأهداف على تقليد الآخرين." data-en="I prefer to do things driven by purpose and goals rather than imitating others."></p></div>
+            </div>
+        </section>
+
+        <section id="interests">
+                <h1 data-ar="اهتماماتي" data-en="My Interests"></h1>
+                <h3 data-ar="أهتم بالعمل على مشاريع تتعلق بأحد هذه المجالات أو تجمع بينها - وهو ما فعلته في هذا المشروع من خلال:" data-en="I am interested in working on projects related to or combining these fields - which is what I did in this project through:"></h3>
+                <div class="ins-box"><h2 data-ar="التقنية" data-en="Technology"></h2><br><p data-ar="تسهل التقنية حياة الإنسان وتوفر وقته وموارده - وقد بنيت تعريفي الشخصي في موقع ويب لأتعلم أكثر في مجال التقنية." data-en="Technology empowers human life and optimizes time and resources - so I built my personal profile on a website to learn more about technology."></p></div>
+                <div class="ins-box"><h2 data-ar="التعليم" data-en="Education"></h2><br><p data-ar="العلم قوة لأصحابه وبداية للنهضة والتطور - جميع الأكواد التي كتبتها لبناء هذا الموقع متاحة للجميع على حسابي في github ليتعلم ويستفيد منها الآخرون." data-en="Knowledge is power and the foundation of progress and growth - all the code I wrote to build this website is available to everyone (open-source) on my GitHub account so others can learn and benefit from it."></p></div>
+                <div class="ins-box"><h2 data-ar="الفن" data-en="Art"></h2><br><p data-ar="تعبر الفنون عن أصحابها وتثري تفكيرهم وهوياتهم - حاولت إخراج الموقع بصورة جمالية بسيطة تمنحه هوية بارزة تعبر عنه" data-en="Art expresses its creators and expands their perspectives and identities - I tried to present this website with a clean, aesthetic design that gives it a distinctive identity reflecting its purpose."></p></div>
+        </section>
+
+        <section id="experience">            
+                <h1 data-ar="خبرتي" data-en="My Experience"></h1>
+                <article class="container">
+                    <p data-ar="وظفت جميع مهاراتي التقنية السابقة في إنشاء هذا الموقع، واعتمدت على المصادر المتاحة على يوتيوب ومنصة سطر التعليمية وأدلة w3schools لأتعلم المزيد وأتجاوز المشاكل التي واجهتني، وابتكرت احيانا طرقا التفافية خاصة لحل المشكلة حين لم تنجح الحلول المقترحة في المصادر.
+ من المشاكل التي واجهتني على سبيل المثال:
+- ترميز حروف كلا اللغتين العربية والانجليزية.
+- مشاكل عرض العناصر والإخراج البصري (الكثير منها).
+- أعطال ملفات الصور والخطوط.
+
+ومن المهارات التي اكتسبتها ايضا على سبيل المثال:
+- تحسين الكود لمحركات البحث وقارئات الشاشة (المهمة لإمكانية وصول ذوي الاحتياجات الخاصة).
+- ربط لغات البرمجة المختلفة معا (HTML + CSS + Javascript).
+- استخدام واجهة مطوري المواقع على المتصفح.
+
+وبشكل عام، كان أكبر تحديَين واجهتهما في العمل على هذا الموقع هما الإخراج البصري وإضافة الترجمة للغتين العربية والانجليزية؛ ولكم الحكم على طريقتي في التعامل معهما.
+
+للاطلاع على محاولاتي القديمة مع سكراتش يمكنكم زيارة:" data-en="I applied all my technical skills to create this website relying on available resources on YouTube, Satr educational platform, and w3schools guides to learn more and solve the problems I faced. Sometimes, I even created custom workarounds when the suggested ones didn't work.
+
+Some of these problems I faced included:
+- Character encoding  (UTF-8) for both Arabic and English.
+- Layout, display, and visual presentation issues (lots of them!).
+- Broken image and font files.
+
+Some of the new skills I learned included:
+- Optimizing code for search engines (SEO) and screen readers (which is important for accessibility)
+- Integrating different programming languages (HTML + CSS + JavaScript)
+- Using browser developer tools (DevTools)
+
+Overall, the two biggest challenges I faced working on this website were visual presentation and adding Arabic and English translations; but I'll let you be the judge of how I handled them.
+
+To see my early experiments on Scratch, you can visit:"></p>
+                <h5><a href="https://scratch.mit.edu/users/Reem_Jr27/">Scratch.</a></h5>
+            </article>
+        </section>
+
+        <section id="contact">           
+                <h1 data-ar="تواصل معي" data-en="Contact Me"></h1>
+                <h2 data-ar="أرحب بتواصلكم معي عبر:" data-en="Feel free to contact me on:"></h2>
+                <a href="mailto:Reem.Rizq.01@gmail.com"><h3>Reem.Rizq.01@gmail.com</h3></a>
+                <a href="http://t.me/Reem_Rizq">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+                        <path d="M21.936 5.17077L18.9059 19.3546C18.6802 20.3539 18.1 20.5795 17.2618 20.1282L12.7166 16.7757L10.4923 18.9033C10.2666 19.1289 10.041 19.3546 9.5252 19.3546L9.8798 14.6804L18.3578 6.97598C18.7124 6.62138 18.2611 6.49244 17.8098 6.78256L7.26869 13.4232L2.72343 12.037C1.72412 11.7147 1.72412 11.0377 2.94908 10.5864L20.6144 3.72015C21.4847 3.46227 22.2262 3.91357 21.936 5.17077Z" fill="#ffffff"/>
+                    </svg>@Reem_Rizq
+                </a>
+                <a href="https://github.com/Reem-Rizq"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+                    <path d="M12 2.24902C6.51613 2.24902 2 6.70064 2 12.249C2 16.6361 4.87097 20.3781 8.87097 21.7329C9.3871 21.8297 9.54839 21.5071 9.54839 21.2813C9.54839 21.0555 9.54839 20.4103 9.51613 19.5393C6.74194 20.1845 6.16129 18.1845 6.16129 18.1845C5.70968 17.0555 5.03226 16.7329 5.03226 16.7329C4.12903 16.0877 5.06452 16.0877 5.06452 16.0877C6.06452 16.12 6.6129 17.12 6.6129 17.12C7.48387 18.6684 8.96774 18.2168 9.51613 17.9264C9.6129 17.2813 9.87097 16.8297 10.1613 16.5716C7.96774 16.3458 5.6129 15.4748 5.6129 11.6684C5.6129 10.5716 6.03226 9.70064 6.64516 9.02322C6.54839 8.79741 6.19355 7.76515 6.74194 6.37806C6.74194 6.37806 7.6129 6.11999 9.51613 7.41031C10.3226 7.18451 11.1613 7.05548 12.0323 7.05548C12.9032 7.05548 13.7742 7.15225 14.5484 7.41031C16.4516 6.15225 17.2903 6.37806 17.2903 6.37806C17.8387 7.73289 17.5161 8.79741 17.3871 9.02322C18.0323 9.70064 18.4194 10.6039 18.4194 11.6684C18.4194 15.4748 16.0645 16.3458 13.871 16.5716C14.2258 16.8942 14.5484 17.5393 14.5484 18.4426C14.5484 19.7974 14.5161 20.8619 14.5161 21.1845C14.5161 21.4426 14.7097 21.7329 15.1935 21.6361C19.129 20.3135 22 16.6039 22 12.1845C21.9677 6.70064 17.4839 2.24902 12 2.24902Z" fill="#ffffff"/>
+                    </svg>@Reem-Rizq
+                </a>
+        </section>
+
+        <button id="btt-btn" role="button" aria-label="العودة لأعلى الصفحة" tabindex="0">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+                <path d="M17.7197 13.4053C18.0126 13.6982 18.4874 13.6982 18.7803 13.4053C19.0732 13.1124 19.0732 12.6376 18.7803 12.3447L12.5303 6.09467C12.2374 5.80178 11.7626 5.80178 11.4697 6.09467L5.21967 12.3447C4.92678 12.6376 4.92678 13.1124 5.21967 13.4053C5.51256 13.6982 5.98744 13.6982 6.28033 13.4053L12 7.68566L17.7197 13.4053Z" fill="#ffffff"/>
+                <path opacity="0.4" d="M17.7197 17.9053C18.0126 18.1982 18.4874 18.1982 18.7803 17.9053C19.0732 17.6124 19.0732 17.1376 18.7803 16.8447L12.5303 10.5947C12.2374 10.3018 11.7626 10.3018 11.4697 10.5947L5.21967 16.8447C4.92678 17.1376 4.92678 17.6124 5.21967 17.9053C5.51256 18.1982 5.98744 18.1982 6.28033 17.9053L12 12.1857L17.7197 17.9053Z" fill="#ffffff"/>
+            </svg>
+        </button>
+
+        <footer id="del">
+            <h5 data-ar="جميع حقوق المحتوى محفوظة © - ريم ." data-en="All rights to Content Reserved © - Reem ."></h5>
+            <h6 data-ar="آخر تحديث: (التاريخ والوقت)" data-en="Last update: (date and time)"></h6>
+        </footer>
+
+        <script src="script.js"> </script>
+
+    </body>
+</html>
+
+
+<!-- 
+
+github icon
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+<path d="M12 2.24902C6.51613 2.24902 2 6.70064 2 12.249C2 16.6361 4.87097 20.3781 8.87097 21.7329C9.3871 21.8297 9.54839 21.5071 9.54839 21.2813C9.54839 21.0555 9.54839 20.4103 9.51613 19.5393C6.74194 20.1845 6.16129 18.1845 6.16129 18.1845C5.70968 17.0555 5.03226 16.7329 5.03226 16.7329C4.12903 16.0877 5.06452 16.0877 5.06452 16.0877C6.06452 16.12 6.6129 17.12 6.6129 17.12C7.48387 18.6684 8.96774 18.2168 9.51613 17.9264C9.6129 17.2813 9.87097 16.8297 10.1613 16.5716C7.96774 16.3458 5.6129 15.4748 5.6129 11.6684C5.6129 10.5716 6.03226 9.70064 6.64516 9.02322C6.54839 8.79741 6.19355 7.76515 6.74194 6.37806C6.74194 6.37806 7.6129 6.11999 9.51613 7.41031C10.3226 7.18451 11.1613 7.05548 12.0323 7.05548C12.9032 7.05548 13.7742 7.15225 14.5484 7.41031C16.4516 6.15225 17.2903 6.37806 17.2903 6.37806C17.8387 7.73289 17.5161 8.79741 17.3871 9.02322C18.0323 9.70064 18.4194 10.6039 18.4194 11.6684C18.4194 15.4748 16.0645 16.3458 13.871 16.5716C14.2258 16.8942 14.5484 17.5393 14.5484 18.4426C14.5484 19.7974 14.5161 20.8619 14.5161 21.1845C14.5161 21.4426 14.7097 21.7329 15.1935 21.6361C19.129 20.3135 22 16.6039 22 12.1845C21.9677 6.70064 17.4839 2.24902 12 2.24902Z" fill="#ffffff"/>
+</svg>
+
+telegram
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+<path d="M21.936 5.17077L18.9059 19.3546C18.6802 20.3539 18.1 20.5795 17.2618 20.1282L12.7166 16.7757L10.4923 18.9033C10.2666 19.1289 10.041 19.3546 9.5252 19.3546L9.8798 14.6804L18.3578 6.97598C18.7124 6.62138 18.2611 6.49244 17.8098 6.78256L7.26869 13.4232L2.72343 12.037C1.72412 11.7147 1.72412 11.0377 2.94908 10.5864L20.6144 3.72015C21.4847 3.46227 22.2262 3.91357 21.936 5.17077Z" fill="#ffffff"/>
+</svg>
+
+duouble angel up
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+<path d="M17.7197 13.4053C18.0126 13.6982 18.4874 13.6982 18.7803 13.4053C19.0732 13.1124 19.0732 12.6376 18.7803 12.3447L12.5303 6.09467C12.2374 5.80178 11.7626 5.80178 11.4697 6.09467L5.21967 12.3447C4.92678 12.6376 4.92678 13.1124 5.21967 13.4053C5.51256 13.6982 5.98744 13.6982 6.28033 13.4053L12 7.68566L17.7197 13.4053Z" fill="#ffffff"/>
+<path opacity="0.4" d="M17.7197 17.9053C18.0126 18.1982 18.4874 18.1982 18.7803 17.9053C19.0732 17.6124 19.0732 17.1376 18.7803 16.8447L12.5303 10.5947C12.2374 10.3018 11.7626 10.3018 11.4697 10.5947L5.21967 16.8447C4.92678 17.1376 4.92678 17.6124 5.21967 17.9053C5.51256 18.1982 5.98744 18.1982 6.28033 17.9053L12 12.1857L17.7197 17.9053Z" fill="#ffffff"/>
+</svg>
+
+lamp
+<svg width="24" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9.0625 18.0453C9.01679 16.914 8.26885 15.8509 7.26013 14.8658C5.86655 13.5048 5 11.6029 5 9.49987C5 5.35781 8.35781 2 12.4999 2C16.6419 2 19.9997 5.35781 19.9997 9.49987C19.9997 11.6027 19.1333 13.5046 17.7399 14.8655C16.6988 15.8824 15.9355 16.9822 15.9355 18.1544V19.75C15.9355 20.9926 14.9282 22 13.6855 22H11.3125C10.0699 22 9.0625 20.9926 9.0625 19.75V18.0453ZM6.5 9.49987C6.5 6.18624 9.18624 3.5 12.4999 3.5C15.8135 3.5 18.4997 6.18624 18.4997 9.49987C18.4997 11.1824 17.8082 12.7021 16.6918 13.7925C15.9506 14.5164 15.1802 15.4257 14.7589 16.5H13.25V11.8412C13.5571 11.7329 13.8453 11.5559 14.0909 11.3103L14.9363 10.4649C15.2292 10.172 15.2292 9.69713 14.9363 9.40424C14.6434 9.11135 14.1686 9.11135 13.8757 9.40424L13.0303 10.2497C12.7374 10.5425 12.2625 10.5425 11.9696 10.2497L11.124 9.40421C10.8311 9.11133 10.3563 9.11136 10.0634 9.40427C9.77051 9.69719 9.77054 10.1721 10.0635 10.4649L10.909 11.3104C11.1547 11.556 11.4429 11.7329 11.75 11.8412L11.75 16.5H10.2412C9.81983 15.4258 9.04933 14.5165 8.30817 13.7927C7.19168 12.7023 6.5 11.1825 6.5 9.49987ZM10.5625 18.2129C10.564 18.1938 10.5647 18.1744 10.5647 18.1549C10.5647 18.1088 10.564 18.063 10.5625 18.0175V18H14.4355V19.75C14.4355 20.1642 14.0998 20.5 13.6855 20.5H11.3125C10.8983 20.5 10.5625 20.1642 10.5625 19.75V18.2129Z" fill="#ffffff"/>
+</svg>
+
+gem
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5.16509 4.45923C5.55285 3.71602 6.32162 3.25 7.15991 3.25H16.8414C17.6796 3.25 18.4484 3.71602 18.8362 4.45923L20.9472 8.50541C21.3717 9.31907 21.2595 10.309 20.6637 11.007L12.5711 20.4869C12.4286 20.6539 12.2201 20.75 12.0006 20.75C11.7812 20.75 11.5727 20.6539 11.4302 20.4869L3.33758 11.007C2.74173 10.309 2.62952 9.31907 3.05404 8.50541L5.16509 4.45923ZM6.94479 4.78149L9.03286 8.25816L11.1398 4.75H7.15991C7.08593 4.75 7.01359 4.76089 6.94479 4.78149ZM10.3593 8.96289L12.0006 6.23012L13.6419 8.96289H10.3593ZM15.5285 10.4629L13.5919 16.9808L19.156 10.4629H15.5285ZM10.4093 16.9808L8.47271 10.4629H4.8453L10.4093 16.9808ZM10.0375 10.4629L12.0006 17.0699L13.9637 10.4629H10.0375ZM18.0068 6.11246L16.2949 8.96289H19.494L18.0068 6.11246ZM16.8414 4.75C16.9153 4.75 16.9877 4.76089 17.0565 4.78149L14.9684 8.25816L12.8614 4.75H16.8414ZM7.70637 8.96289L5.99442 6.11246L4.50724 8.96289H7.70637Z" fill="#ffffff"/>
+</svg>
+
+-->
